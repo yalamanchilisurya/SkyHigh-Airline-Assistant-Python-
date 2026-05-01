@@ -3,9 +3,12 @@ from google import genai
 from google.genai import types
 import base64
 import os
+from dotenv import load_dotenv
+
+load_dotenv() # Load variables from .env file
 
 # --- Configuration ---
-API_KEY = "Replace - Your - Google - Gemini - API - Key "
+API_KEY = os.environ.get("GEMINI_API_KEY", "Replace - Your - Google - Gemini - API - Key ")
 MODEL_NAME = "models/gemini-flash-latest"
 SYSTEM_INSTRUCTION = """
 You are an Airline Policy Expert Assistant.

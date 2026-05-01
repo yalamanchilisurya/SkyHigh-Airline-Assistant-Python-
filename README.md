@@ -41,13 +41,13 @@ A modern, interactive conversational AI assistant built with **Python**, **Strea
 
 3. **Install the dependencies:**
    ```bash
-   pip install streamlit google-genai
+   pip install -r requirements.txt
    ```
 
 4. **Configure your API Key:**
-   Open `app.py` and replace the placeholder `API_KEY` with your actual Google Gemini API key:
-   ```python
-   API_KEY = "your_actual_api_key_here"
+   Create a `.env` file in the root directory (you can copy `.env.example`) and add your actual Google Gemini API key:
+   ```bash
+   GEMINI_API_KEY="your_actual_api_key_here"
    ```
    *(Note: For production, it is highly recommended to use environment variables or Streamlit secrets instead of hardcoding the API key).*
 
