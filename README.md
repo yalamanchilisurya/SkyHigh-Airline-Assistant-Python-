@@ -59,7 +59,7 @@ streamlit run app.py
 ```
 The app will automatically open in your default web browser at `http://localhost:8501`.
 
-## 💡 What I Learned (Resume Highlights)
+## 💡 What I Learned 
 
 - **AI Integration:** Gained hands-on experience integrating Large Language Models (LLMs) into applications using the latest Google GenAI SDK.
 - **Prompt Engineering:** Used System Instructions to define the AI's persona, scope, and tone of voice.
